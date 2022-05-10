@@ -1,0 +1,32 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webhint": "npx hint .",
+    "stylelint": "npx stylelint **/*.{css,scss} --fix",
+    "eslint": "npx eslint . --fix ",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idungstanley/LeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idungstanley/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/idungstanley/LeaderBoard#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
