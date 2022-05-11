@@ -25,20 +25,21 @@ To get a local copy up and running follow these simple example steps.
 * Linters setup
 * GitHub - For storing our codes and managing the git repo.
 
-### Setup
-* Create a Repo 
-  * Go to github and create a repo
-  * Copy the ssh code to clone
-* Open the Commandline
-  * Navigate To the right directory
-  * Run ```Git Clone https://github.com/idungstanley/LeaderBoard.git```
-  * Run ```code .``` to open your VScode Editor
-* Create the Github\workflows Folder
-  * Create a Linters.yml file and configure
 
-## Live Demo
+## Getting Started
+To get a local copy up and running follow these simple steps:
 
-[Site is live. Visit now!](https://idungstanley.github.io/LeaderBoard/)
+1. Open your terminal and navigate to the folder you would like to put these files.
+2. Type these commands into the terminal:
+   * Run ```Git Clone https://github.com/idungstanley/LeaderBoard.git```
+   * cd leaderboard
+   * npm install
+3. To build the project with webpack
+   * npm run build
+   * Open dist/index.html in you web browser.
+4. To run the webpack dev server
+   * npm run start
+   * Your web browser will open on localhost:8080
 
 ### Install
 
@@ -50,3 +51,23 @@ To get a local copy up and running follow these simple example steps.
 
 * install ESLint linter
   * Run ```npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x```
+
+## Author
+👤 **Sunday Stanley Idung**
+- GitHub: [@idungstanley](https://github.com/idungstanley)
+- Twitter: [@idungstanley](https://twitter.com/IdungStanley)
+- LinkedIn: [Sunday (idung) Stanley](https://linkedin.com/in/sundaystanley56)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
