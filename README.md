@@ -25,6 +25,9 @@ To get a local copy up and running follow these simple example steps.
 * Linters setup
 * GitHub - For storing our codes and managing the git repo.
 
+## Live Demo
+
+[Site is live. Visit now!](https://idungstanley.github.io/LeaderBoard/dist/) 
 
 ## Getting Started
 To get a local copy up and running follow these simple steps:
