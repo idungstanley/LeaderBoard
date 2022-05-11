@@ -1,44 +1,47 @@
 * {
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #main {
- margin: 20px;
+  margin: 20px;
 }
-header h1{
- font-weight: 700;
- font-size: 50px;
+
+header h1 {
+  font-weight: 700;
+  font-size: 50px;
 }
 
 .body {
- display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .score-section {
-width: 40%;
+  width: 40%;
 }
 
 .refresh {
- display: flex;
- margin: 15px 0;
+  display: flex;
+  margin: 15px 0;
 }
 
 .refresh p {
- font-size: 20px;
- font-weight: 900;
- margin-right: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 10px;
 }
 
 .btn {
- width:max-content;
- height: 20px;
+  width: max-content;
+  height: 20px;
 }
+
 .score-container {
- border-radius: 3px;
- border: 1.5px solid black;
- list-style: none;
+  border-radius: 3px;
+  border: 1.5px solid black;
+  list-style: none;
 }
 
 li:nth-child(odd) {
@@ -46,17 +49,15 @@ li:nth-child(odd) {
 }
 
 #input {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-
 .add-score {
- width: 40%;
+  width: 40%;
 }
 
 .add-score p {
- font-size: 20px;
- font-weight: 900;
- margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
 }
-

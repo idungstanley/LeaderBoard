@@ -1,17 +1,17 @@
 const setStorage = (scoreList) => {
-  localStorage.setItem('scores', JSON.stringify(scoreList))
-}
+  localStorage.setItem('scores', JSON.stringify(scoreList));
+};
 const getStorage = () => {
-  let store
+  let store;
   if (!localStorage.getItem('scores')) {
-    store = []
+    store = [];
   } else {
-    store = JSON.parse(localStorage.getItem('scores'))
+    store = JSON.parse(localStorage.getItem('scores'));
   }
-  return store
-}
+  return store;
+};
 
 module.exports = {
   getStorage,
   setStorage,
-}
+};
