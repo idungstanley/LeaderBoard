@@ -30,8 +30,7 @@ const fetchScore = async () => {
 }
 
 const pushScore = async (scoreAndName) => {
-  await fetch(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${getGameId()}/scores`,
+  await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${getGameId()}/scores`,
     {
       method: 'POST',
       headers: {
