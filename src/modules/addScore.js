@@ -1,7 +1,6 @@
-export default class Score {
-  constructor(name, score, index) {
-    this.name = name;
-    this.score = score;
-    this.index = index;
-  }
-}
+let scores = [];
+
+const setScore = (result) => scores.push(result);
+const getScore = () => scores;
+
+export {setScore, getScore}
