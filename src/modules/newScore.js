@@ -1,6 +1,6 @@
 export default class Newscore {
- constructor(name, score){
-  this.name = name;
-  this.score = score
- }
+  constructor(user, score) {
+    this.user = user;
+    this.score = score;
+  }
 }
