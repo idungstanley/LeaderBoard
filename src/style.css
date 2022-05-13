@@ -56,6 +56,12 @@ li:nth-child(odd) {
   width: 40%;
 }
 
+.flex {
+  padding: 0 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .add-score p {
   font-size: 20px;
   font-weight: 900;
