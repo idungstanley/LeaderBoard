@@ -16,11 +16,6 @@ const load = async () => {
     const nameInput = document.querySelector('#input').value
     const scoreInput = document.querySelector('#number').value
     const scoreClass = new Newscore(nameInput, scoreInput)
-    console.log(scoreClass)
-    console.log({
-      user: event.target.elements.name.value,
-      score: event.target.elements.score.value,
-    })
     await pushScore(scoreClass)
     await UI.clearField()
   })
