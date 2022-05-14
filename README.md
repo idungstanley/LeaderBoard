@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Site is live. Visit now!](https://idungstanley.github.io/LeaderBoard/dist/) 
+[Site is live. Visit now!](https://idungstanley.github.io/LeaderBoard/dist) 
 
 ## Getting Started
 To get a local copy up and running follow these simple steps:
