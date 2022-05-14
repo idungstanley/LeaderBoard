@@ -146,7 +146,7 @@ input::placeholder {
   -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     background-image: url(../images/love.jpg);
     background-repeat: no-repeat;
@@ -178,6 +178,7 @@ input::placeholder {
 
   .body {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
