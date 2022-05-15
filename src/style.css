@@ -218,7 +218,7 @@ input::placeholder {
     box-shadow: 1px -1px 1px 1px black;
     border: 1.5px solid black;
     list-style: none;
-    padding: 4px;
+    padding: 5px;
   }
 
   li:nth-child(odd) {
